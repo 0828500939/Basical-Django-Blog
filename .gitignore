@@ -1,5 +1,5 @@
-Website_Application/blog/__pycache__
-Website_Application/home/__pycache__
-Website_Application/Website_Application/__pycache__
+# Website_Application/blog/__pycache__
+# Website_Application/home/__pycache__
+# Website_Application/Website_Application/__pycache__
 Website_Application/db.sqlite3
-__pycache__/
+Website_Application/**/__pycache__/
