@@ -1,4 +1,4 @@
-Website_Application/blog/pycache
-Website_Application/home/pycache
-Website_Application/Website_Application/pycache
+Website_Application/blog/__pycache__
+Website_Application/home/__pycache__
+Website_Application/Website_Application/__pycache__
 Website_Application/db.sqlite3
