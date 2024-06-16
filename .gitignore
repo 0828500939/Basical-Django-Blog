@@ -1,2 +1,4 @@
-pycache
-db.sqlite3
+Website_Application/blog/pycache
+Website_Application/home/pycache
+Website_Application/Website_Application/pycache
+Website_Application/db.sqlite3
