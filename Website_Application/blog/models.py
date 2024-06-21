@@ -7,4 +7,4 @@ class Post(models.Model):
     date_posted = models.DateTimeField(auto_now_add=True)
     author = models.CharField(max_length=100)
     def __str__(self):
-        return str(self.title) + ' | ' + str(self.author)
+        return str(self.title) + str(self.author)

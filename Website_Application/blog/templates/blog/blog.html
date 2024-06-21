@@ -5,7 +5,7 @@
 {% block content %}
     {%for post in Posts%}
         <h4>
-            {{post.date_posted|date:"d-m-y "}}<a href="/blog/{{post.id}}">{{post.title}}</a> by {{post.author}}<br
+            {{post.date_posted|date:"d-m-y "}}<a href="{% url 'post' post.id %}">{{post.title}}</a> by {{post.author}}<br
         </h4>
     {% endfor %}
 {% endblock %}

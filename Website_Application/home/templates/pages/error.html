@@ -1,0 +1,20 @@
+{% extends "pages/base.html" %} {% load static %}
+
+{% block title %}Lỗi 404 - Không tìm thấy trang{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="text-center error-page">
+        <img src="{% static 'images/404.png' %}" alt="Lỗi 404" class="img-fluid" />
+        <h1>Oops! Trang không tồn tại.</h1>
+        <p>
+          Rất tiếc, trang bạn đang tìm kiếm không tồn tại hoặc đã bị xóa.
+        </p>
+        <a href="{% url 'blog' %}" class="btn btn-primary">Quay lại trang chủ</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %} 

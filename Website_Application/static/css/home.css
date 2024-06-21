@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    background-color: #f6f6f6;
+}
+/* Trong home.css */
+.header-container {
+    background: linear-gradient(to bottom, #e0f7fa, #fff); /* Ví dụ màu gradient */
+    padding: 7px;
+}
+
+.header-container h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.header-container img {
+    transition: transform 0.3s ease; /* Hiệu ứng hover */
+}
+
+.header-container img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Trong home.css */
+.bs-sliderbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bs-sliderbar li {
+    margin-bottom: 10px;
+}
+
+.bs-sliderbar a {
+    color: #007bff; /* Ví dụ màu xanh dương */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Hiệu ứng hover */
+}
+
+.bs-sliderbar a:hover {
+    background-color: #e7eff5; /* Ví dụ màu nền khi hover */
+}
+
+
+/* Trong home.css */
+footer {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 15px;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* .social a {
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.social a:hover {
+    background-color: #007bff;
+} */
